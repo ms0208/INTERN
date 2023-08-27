@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color: black;
+}
+.centre{
+    text-align: center;
+    font-size:  4.375rem; /*70px*/
+    font-weight: bold;
+    color:white;
+    margin-top: 1.25rem; /*20px;*/
+    margin-bottom:1.875rem; /*30px*/
+}
+
+.mx-auto{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding:  0.625rem 2.5rem; /*10px 40px;*/
+    margin:   0  0.188rem;    /*0  3px;*/
+    border: 0.125rem solid aqua;   /*2px*/
+    border-radius:  1.25rem; /*20px;*/
+    cursor:pointer;
+    font-size: 2.5rem; /*40px; */
+}
+.button:hover{
+    color:red;
+}
+.row{
+    margin: 0.75rem 0; /*12px 0;*/
+}
+.input{
+    font-size:  2.5rem; /*40px;*/
+    padding:  0.625rem; /*10px*/
+    color:blue;
+    border: 0.125rem solid orangered; /*2px*/
+    border-radius: 1.25rem;/*20px;*/
+}
+@media (max-width:780px)
+{
+    .centre{
+        font-size: 3rem;
+    }
+}
+@media (max-width:530px)
+{
+    .centre {
+        font-size:2.5rem;
+    }
+    .input {
+        font-size: 2rem;
+        padding: 0.4rem;
+        margin-top: 1.7rem;
+        margin-bottom: 2.5rem;
+    }
+    .row{
+        margin:1rem 0rem;
+    }
+    .button{
+        padding:  0.5rem 2rem; /*10px 40px;*/   
+        font-size: 2rem; /*40px; */
+    }
+}
+@media (max-width:460px)
+{
+    .centre {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width:460px)
+{
+    .centre {
+        font-size: 2.2rem;
+    }
+    .input {
+        font-size: 1.8rem;
+        padding: 0.3rem;
+        margin-top: 1.4rem;
+    }
+    .button{
+        padding:  0.5rem 1.7rem; /*10px 40px;*/   
+        font-size: 1.7rem; /*40px; */
+        margin:0.5rem;
+    }
+}
+@media (max-width:420px)
+{
+    .centre {
+        font-size: 2rem;
+    }
+    .button{
+        padding:  0.3rem 1.7rem; /*10px 40px;*/   
+        font-size: 1.7rem; /*40px; */
+    }
+    .input {
+        font-size: 1.5rem;
+        padding: 0.3rem;
+        margin-top: 1.4rem;
+    }
+}
+@media (max-width:380px) {
+    .button{
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+}
+@media (max-width:360px)
+{
+    .centre {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .button{
+        padding:  0.3rem 1.3rem; /*10px 40px;*/   
+        font-size: 1.5rem; /*40px; */
+    }
+    .input {
+        font-size: 1.5rem;
+        padding: 0.3rem;
+        margin-top: 1.4rem;
+    }
+    .body{
+        margin-top:2rem;
+    }
+}
+@media (max-width:320px)
+{
+    .input {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+    } 
+    .button {
+        font-size: 1rem;
+        margin: 1 0.09rem
+    }
+}
+@media (max-width:300px)
+{
+    .centre {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .button{
+        padding:  0.3rem 0.8rem; /*10px 40px;*/   
+        font-size: 1.5rem; /*40px; */
+    }
+    .input {
+        font-size: 1rem;
+        padding: 0.2rem;
+        margin-top: 1.4rem;
+    }
+}
+@media (max-width:250px) {
+    .button{
+        padding:  0.3rem 0.5rem; /*10px 40px;*/   
+        font-size: 1.2rem; /*40px; */
+    }
+}
+ 
